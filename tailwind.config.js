@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         snake: "url('./src/images/topgroup.png')",
+        alfysymbol: "url('./src/images/alfysymbol.png')",
       },
       screens: {
         'sm': '576px',
