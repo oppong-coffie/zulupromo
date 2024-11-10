@@ -15,7 +15,7 @@ const BigPromo = () => {
       className="w-[100%] h-[100%]" src={snake} alt="Promo" />
       
       {/* Overlay image */}
-      <div className="absolute top-[120px] md:top-[300px] md:left-1/2 transform -translate-x-[300px] me:-translate-x-80 -translate-y-[60px] md:-translate-y-1/2">
+      <div className="absolute top-[120px] md:top-[300px] md:left-1/2 transform -translate-x-[-70px] md:-translate-x-[300px] -translate-y-[60px] md:-translate-y-1/2">
         <img
               data-aos="zoom-out"
               data-aos-delay="300"

@@ -41,7 +41,7 @@ useEffect(() => {
 
   return (
     <div className="relative flex justify-center top-[-50px] ">
-    <div className="text-white z-10 absolute w-[70%] md:w-[40%] rounded-lg h-24 flex items-center justify-center px-5">
+    <div className="text-white z-10 absolute w-[80%] md:w-[40%] rounded-lg h-24 flex items-center justify-center px-5">
       <div className="bg-black w-[100%] h-[100%] opacity-85 absolute rounded-lg"></div>
       <div className="flex">
         <h1 className='md:text-3xl font-bold z-20'>{workers}+</h1>
@@ -50,14 +50,14 @@ useEffect(() => {
               data-aos-delay="300"
               data-aos-duration="3000"
               data-aos-easing="ease-in"
-        className='text-slate-600 text-start pl-1  z-20 text-sm'>Weekly workers and visitors</p>
+        className='text-slate-400 text-start pl-1  z-20 text-sm'>Weekly workers and visitors</p>
         <h1 className='md:text-3xl font-bold  z-20'>{customers}%+</h1>
         <p 
            data-aos="fade-right"
            data-aos-delay="300"
            data-aos-duration="3000"
            data-aos-easing="ease-in"
-        className='text-slate-600 text-start pl-1  z-20 text-sm'>Customer satisfaction</p>
+        className='text-slate-400 text-start pl-1  z-20 text-sm'>Customer satisfaction</p>
       </div>
     
       </div>
